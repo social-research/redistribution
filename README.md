@@ -7,14 +7,14 @@ The repository contains code for agent based models, simulation data, experiment
 The folders and files are structured as follows:
 
 * Nelogo code for agent-based model
-  * `redistribution_experiment.nlogo`
-  * `redistribution_model.nlogo`
+  * `redistribution_model.nlogo` – generic model for a large population with realistic and adjustable wealth distribution and networks
+  * `redistribution_experiment.nlogo` – simplified model for the fixed group size and network structures used in the experiment
 * Jupyter notebooks with Python code for main data analysis
-  * `model_analysis.ipynb`
-  * `model_exp_analysis.ipynb`
-  * `exp_analysis.ipynb`
+  * `model_analysis.ipynb` – analysis of the results from the generic agent-based model
+  * `model_exp_analysis.ipynb` – analysis of the predictions from the simplified agent-based model
+  * `exp_analysis.ipynb` – analysis of the experimental results
   * helping functions in `modules` folder
-  * outputted plots for paper in `plot`s` folder
+  * outputted plots for paper in `plots` folder
 * R code for supplementary statistical analyses of experimental data
   * `exp_analysis_behavioir.R`
   * `exp_analysis_dropouts.R`
